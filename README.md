@@ -1,14 +1,13 @@
-# Learn Code
-This repository is a code repository for organizing my personal learning.
-I created it to tie in with my blogging, but I'll try to make it self explanatory as well.
+# Lecture
 
-It's not really a lecture or anything, just a way to organize my thoughts, so if it doesn't make sense to you
-## [Step 1. Python Class](Python-Class/README.md)
-Let's break down the different ways you can use Python into key categories.
-## ~~Step 2. English Study for Code~~
+This repository contains a collection of lectures and practical examples for Python development, AI implementation, and cybersecurity.
 
-## ~~Step 3. Stock & Altcoin analysis for Code~~
+## 🚀 [Python Class](Python-Class/README.md)
+A comprehensive guide to learning Python through practical applications, from data collection to web development and cybersecurity.
 
-## ~~Step 4. Life Assistant~~
-
-## ~~Step 5. Real World~~
+## 🤖 AI and Machine Learning
+Exploration of modern AI techniques and their practical applications.
+*   **[AI Agent](AI/AI_Agent/README.md)**: Building and deploying intelligent agents.
+*   **[AI-Augmented Development](AI/AI_Augmented_Development/README.md)**: Enhancing development workflows with AI tools.
+*   **[AI Security](AI/AI_Security/README.md)**: Securing AI systems and using AI for security.
+*   **[Vertical RAG](AI/Vertical_RAG/README.md)**: Implementing Retrieval-Augmented Generation for specific domains.
