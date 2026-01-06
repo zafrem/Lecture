@@ -1,22 +1,26 @@
 # Step 3: Building the Brain (Agent Logic)
 
-Now that we have memory, we need logic. The "Brain" needs to do two main things:
+Now that we have memory, we need logic. The "Brain" needs to do three main things:
 1.  **Understand Commands**: Translate human language into database actions.
 2.  **Monitor the World**: Proactively check for problems.
+3.  **Teach**: Actively tutor students who need help.
 
 ## 1. Parsing Language (The "Ears")
 Teachers speak in natural language: *"Schedule a review session for Friday."*
 The code needs strict instructions: `INSERT INTO schedule VALUES ('2023-10-27')`.
 
-### The "Regex" Approach (Level 1)
-For this prototype, we use Regular Expressions (Regex) to find patterns.
--   Pattern: `Schedule class on [DATE] for [TOPIC]`
--   Code finds: `2026-05-20` and `Math`
--   Action: Calls `database_manager.add_schedule(...)`
+### The Hybrid Approach
+We use a tiered system for "thinking":
+1.  **Cloud AI (Gemini/OpenAI)**: Best for complex reasoning.
+2.  **Local AI (Ollama)**: Great for privacy and free usage. (Model: `llama3` or `olmo`)
+3.  **Regex Fallback**: Simple pattern matching if AI fails.
 
-### The "LLM" Approach (Level 2 - Future)
-In a production system, we would send the user's text to OpenAI/Gemini:
-> "Extract the date and topic from this text."
+```python
+# Pseudo-code logic
+if has_gemini: call_gemini()
+elif has_ollama: call_local_ollama()
+else: use_regex()
+```
 
 ## 2. The Daily Monitor (The "Conscience")
 This is what makes it an **Agent** and not just a chatbot. It acts *without* being asked.
@@ -24,25 +28,20 @@ This is what makes it an **Agent** and not just a chatbot. It acts *without* bei
 **Logic Flow:**
 1.  Wake up (e.g., every morning).
 2.  **Check Schedule**: Is there class tomorrow? -> *Queue Notification*.
-3.  **Check Students**: Does anyone have the `needs_help` tag? -> *Queue Support Material*.
-4.  **Check Inbox**: Any new anonymous messages? -> *Add to Report*.
+3.  **Equity Check**: Does anyone have the `needs_help` tag? 
+    -   *Old Way*: Send a static PDF.
+    -   *New AI Way*: **Initiate a Tutoring Session**.
 
-## 3. Python Implementation
-In `agent_core.py`, we implement `process_teacher_command()` and `run_daily_monitor()`.
-
-```python
-def run_daily_monitor(self):
-    logs = []
-    # 1. Check for struggling students
-    students = db.get_all_students()
-    for s in students:
-        if "needs_help" in s.tags:
-            send_material(s)
-            logs.append(f"Sent help to {s.name}")
-    return logs
-```
+## 3. The AI Tutor Loop
+Instead of just flagging a student, the Agent enters an interactive loop:
+1.  **Start**: Agent generates a concept question.
+2.  **Wait**: Student responds (handled via `process_student_message`).
+3.  **Evaluate**: Agent (Ollama/Gemini) checks the answer.
+    -   *Correct*: "Great job!" (End Session)
+    -   *Incorrect*: Explain concept -> Ask new question -> Repeat.
 
 ## 4. Educational Goal
 By building this, you learn:
 -   **Parsing**: Converting unstructured text (human) to structured data (machine).
--   **Automation**: Writing code that runs in the background (Cron jobs/Loops).
+-   **Local LLMs**: Running AI models like Llama 3 locally using Ollama.
+-   **Stateful Interactions**: Managing long-running "Tutoring Sessions" in a database.

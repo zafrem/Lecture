@@ -1,5 +1,10 @@
 from agent_core import EducationAgent
 import time
+import os
+
+# Set fake API keys for logic flow demonstration (Triggering fallback if real ones aren't present)
+if not os.getenv("GEMINI_API_KEY") and not os.getenv("OPENAI_API_KEY"):
+    print("ℹ️  No Cloud API Keys found. The Agent will attempt to use Local Ollama or fallback to Regex.")
 
 def main():
     agent = EducationAgent()
@@ -12,8 +17,6 @@ def main():
         "Add student Alice (alice@example.com)",
         "Add student Bob (bob@example.com)",
         "Add student Charlie (charlie@example.com)", 
-        # Simulating a student with a 'needs_help' tag manually for now
-        # (In real app, this might come from 'Analyze grade' command)
     ]
     
     for cmd in commands:
@@ -23,6 +26,7 @@ def main():
     # Manually update a student to have "needs_help" tag for demo
     import database_manager
     conn = database_manager.get_connection()
+    # Assume Charlie (ID 3) needs help
     conn.execute("UPDATE students SET tags = 'needs_help' WHERE name = 'Charlie'")
     conn.commit()
     conn.close()
@@ -31,22 +35,31 @@ def main():
     # Scenario 2: Scheduling
     print("\n--- Teacher sets the schedule ---")
     print(agent.process_teacher_command("Schedule class on 2026-01-10 14:00 for Python Basics"))
-    print(agent.process_teacher_command("Assign task Review Chapter 1 by 2026-01-09"))
 
-    # Scenario 3: The "Monitor" wakes up (e.g., Cron job)
+    # Scenario 3: The "Monitor" wakes up and triggers Tutoring
     print("\n--- 🕒 8:00 AM Daily Check ---")
     monitor_logs = agent.run_daily_monitor()
     for log in monitor_logs:
-        print(log)
+        print(log) 
+        # In a real app, the "Question" log would be sent as a DM to the student.
 
-    # Scenario 4: Anonymous Student Feedback
-    print("\n--- 💬 Student Interaction Simulation ---")
-    print("Simulating Student 'Alice' sending a private message...")
-    # Assuming Alice has ID 1 (based on order of insertion)
-    print(agent.process_student_message(1, "The Python Basics class is moving a bit too fast for me."))
+    # Scenario 4: Tutoring Interaction (Charlie responds)
+    print("\n--- 💬 Student Interaction Simulation (Tutoring) ---")
+    print("Simulating Student 'Charlie' (ID 3) replying to the AI Tutor...")
     
-    print("Simulating Student 'Bob' sending a question...")
-    print(agent.process_student_message(2, "Will the exam cover Chapter 2?"))
+    # Charlie replies incorrectly first
+    response1 = agent.process_student_message(3, "I think Python is a type of snake?")
+    print(f"Charlie: I think Python is a type of snake?\nAgent: {response1}\n")
+
+    # Charlie replies correctly (Simulated)
+    # Note: Without a real LLM, the fallback response is static "I am unable to evaluate..."
+    # If the user has an API key set, this will actually work!
+    response2 = agent.process_student_message(3, "It is a programming language.")
+    print(f"Charlie: It is a programming language.\nAgent: {response2}")
+
+    # Scenario 5: Anonymous Feedback (Alice, ID 1)
+    print("\n--- 💬 Student Interaction Simulation (Feedback) ---")
+    print(agent.process_student_message(1, "The class speed is good."))
 
     # Teacher checks report
     print("\n--- 📋 Teacher checks reports ---")
@@ -55,20 +68,6 @@ def main():
         print(line)
 
     print("\n=== Demo Complete ===")
-    print("You can try entering commands below (or type 'exit'):")
-    print("Examples:")
-    print(" - Add student [Name]")
-    print(" - Schedule class on YYYY-MM-DD HH:MM for [Topic]")
     
-    while True:
-        try:
-            user_input = input("\nTeacher> ")
-            if user_input.lower() in ['exit', 'quit']:
-                break
-            response = agent.process_teacher_command(user_input)
-            print(response)
-        except KeyboardInterrupt:
-            break
-
 if __name__ == "__main__":
     main()

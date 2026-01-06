@@ -75,10 +75,20 @@ async def email_students(ctx, subject, *, body):
     Send email to all students.
     Usage: !email_all "Homework 1" Please complete Chapter 1.
     """
-    # This requires adding a 'get_all_emails' to agent/db
-    # For now, we mock it
-    await ctx.send(f"📧 Sending email '{subject}' to all students (Mock)...")
-    email_service.send_email("all_students@class.com", subject, body)
+    emails = agent.get_student_emails()
+    
+    if not emails:
+        await ctx.send("⚠️ No students with email addresses found.")
+        return
+
+    await ctx.send(f"📧 Sending email '{subject}' to {len(emails)} students...")
+    
+    success_count = 0
+    for email in emails:
+        if email_service.send_email(email, subject, body):
+            success_count += 1
+            
+    await ctx.send(f"✅ Sent {success_count}/{len(emails)} emails successfully.")
 
 # --- Background Tasks ---
 

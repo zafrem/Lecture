@@ -53,6 +53,16 @@ def init_db():
     )
     ''')
 
+    # Tutoring Session table (Active learning loop)
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS tutoring_sessions (
+        student_id INTEGER PRIMARY KEY, -- One active session per student
+        topic TEXT,
+        status TEXT DEFAULT 'active', -- active, completed
+        context TEXT -- JSON or string to store last question/history
+    )
+    ''')
+
     conn.commit()
     conn.close()
     print("Database initialized.")
@@ -117,6 +127,18 @@ def get_unread_feedback():
     conn.close()
     return rows
 
+def get_all_emails():
+    """
+    Retrieves the email addresses (contact_info) of all students.
+    """
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT contact_info FROM students WHERE contact_info IS NOT NULL AND contact_info != 'No contact'")
+    rows = cursor.fetchall()
+    conn.close()
+    # Flatten list of tuples to list of strings
+    return [row[0] for row in rows]
+
 def mark_feedback_read(feedback_ids):
     if not feedback_ids:
         return
@@ -124,5 +146,38 @@ def mark_feedback_read(feedback_ids):
     cursor = conn.cursor()
     placeholders = ','.join('?' * len(feedback_ids))
     cursor.execute(f"UPDATE feedback SET is_read = 1 WHERE id IN ({placeholders})", feedback_ids)
+    conn.commit()
+    conn.close()
+
+# --- Tutoring Session Management ---
+
+def start_tutoring_session(student_id, topic, initial_context):
+    conn = get_connection()
+    cursor = conn.cursor()
+    # Upsert: Replace if exists
+    cursor.execute("INSERT OR REPLACE INTO tutoring_sessions (student_id, topic, status, context) VALUES (?, ?, 'active', ?)", 
+                   (student_id, topic, initial_context))
+    conn.commit()
+    conn.close()
+
+def get_active_tutoring_session(student_id):
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT topic, context FROM tutoring_sessions WHERE student_id = ? AND status = 'active'", (student_id,))
+    row = cursor.fetchone()
+    conn.close()
+    return row # (topic, context) or None
+
+def update_tutoring_context(student_id, new_context):
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("UPDATE tutoring_sessions SET context = ? WHERE student_id = ?", (new_context, student_id))
+    conn.commit()
+    conn.close()
+
+def end_tutoring_session(student_id):
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM tutoring_sessions WHERE student_id = ?", (student_id,))
     conn.commit()
     conn.close()
