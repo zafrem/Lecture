@@ -35,7 +35,7 @@ theme: jekyll-theme-slate
 ## 3. Enable GitHub Pages
 
 1.  **Open your Repository** on GitHub.com.
-2.  Click on the ⚙️ **Settings** tab.
+2.  Click on the **Settings** tab.
 3.  Click on **Pages** (sidebar).
 4.  Under **Build and deployment** > **Branch**:
     -   Select `main` (or `master`).

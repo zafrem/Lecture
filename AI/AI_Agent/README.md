@@ -4,7 +4,7 @@
 
 This directory explores the development and implementation of AI Agents. An AI Agent is a system that uses an LLM (Large Language Model) as its "brain" to perceive its environment, reason through tasks, and take actions using various tools.
 
-## 🚀 Projects
+## Projects
 
 ### [🎓 Education Assistant](./Education_Assistant/README.md)
 A specialized AI Agent designed to support teachers by managing student interactions, monitoring participation, and handling administrative tasks via Discord and Email.
@@ -12,7 +12,7 @@ A specialized AI Agent designed to support teachers by managing student interact
 - **Goal**: Promote educational equity through AI-driven classroom management.
 - **Key Features**: Discord integration, database-backed memory, automated reporting, and student engagement tracking.
 
-## 🧠 Core Concepts
+## Core Concepts
 
 - **Perception**: Receiving input from users or environment (e.g., Discord messages, emails).
 - **Reasoning**: Planning and decision-making using LLMs.

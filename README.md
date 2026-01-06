@@ -4,7 +4,7 @@ This repository hosts a collection of structured lectures and practical implemen
 
 ---
 
-## 🤖 AI & Machine Learning
+## AI & Machine Learning
 *Building the next generation of intelligent systems using LLMs and Agentic workflows.*
 
 - **[AI Agent](AI/AI_Agent/README.md)**: Autonomous systems that can reason and act.
@@ -13,16 +13,11 @@ This repository hosts a collection of structured lectures and practical implemen
 - **[AI Security](AI/AI_Security/README.md)**: Protecting AI models and using AI for incident response.
 - **[Vertical RAG](AI/Vertical_RAG/README.md)**: Specialized Retrieval-Augmented Generation for industry-specific data.
 
-[👉 Explore AI Curriculum](AI/README.md)
-
-## 🛠 Project Standards
-- **Local AI First**: We prioritize privacy and cost-efficiency by using **Ollama** and **Llama 3**.
-- **Modern Themes**: Documentation is hosted via GitHub Pages using the **Slate** theme.
-- **Modular Design**: Each lecture includes source code, tutorials, and unit tests.
+[Explore AI Curriculum](AI/README.md)
 
 ---
 
-## 🐍 Python Class
+## Python Class
 *A comprehensive journey from the basics to advanced office automation and cybersecurity.*
 
 - **[00. Pre-courses](Python-Class/00_Pre-courses/README.md)**: Environment setup, PyCharm, and troubleshooting.
@@ -31,7 +26,7 @@ This repository hosts a collection of structured lectures and practical implemen
 - **[04. Office Automation](Python-Class/04_Office_Automation/)**: Automating Jira, Conference controls, and SMTP email services.
 - **[08. Cybersecurity](Python-Class/08_Cybersecurity/README.md)**: Implementing authentication, encryption, and network scanners.
 
-[👉 Explore Python Curriculum](Python-Class/README.md)
+[Explore Python Curriculum](Python-Class/README.md)
 
 ---
 
