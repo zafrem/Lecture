@@ -1,0 +1,51 @@
+site_name: AI Education Assistant
+site_description: A step-by-step guide to building an AI Agent for Teachers.
+site_author: Your Name
+
+theme:
+  name: material
+  palette:
+    # Light Mode
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark Mode
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - content.code.copy
+
+# Configuration to allow using the current directory structure
+docs_dir: . 
+
+nav:
+  - 🏠 Home: README.md
+  - 🎓 Class Tutorials:
+    - 1. Concept & Design: Class/01_Concept_and_Design.md
+    - 2. Database & Memory: Class/02_Designing_Memory.md
+    - 3. Logic & Hybrid AI: Class/03_Building_the_Brain.md
+    - "3b. Guide: Local LLMs (Ollama)": Class/03_b_Local_LLM_Guide.md
+    - "3c. Guide: Cloud APIs (Gemini/OpenAI)": Class/03_c_Cloud_API_Guide.md
+    - 4. Interfaces (Discord/Email): Class/04_Interfaces_and_Integration.md
+    - 5. Use Cases: Class/05_Use_Cases_and_Examples.md
+  - 💻 Source Code:
+    - Project Overview: Project/README.md
+    - Use Cases: Project/USE_CASES.md
+
+plugins:
+  - search
+
+# Exclude python files and other non-doc assets from the build to keep it clean
+exclude_docs: |
+  *.py
+  __pycache__
+  *.db
+  *.yml

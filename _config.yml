@@ -1,0 +1,22 @@
+title: Lecture Series
+description: Python, AI, and Cybersecurity Resources
+theme: jekyll-theme-slate
+
+# Plugins to make relative links work in Markdown
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Settings
+relative_links:
+  enabled: true
+  collections: true
+
+# Navigation (Optional, depends on theme support, but good for metadata)
+header_pages:
+  - README.md
+  - Python-Class/README.md
+  - AI/README.md
+  - AI/AI_Agent/README.md
+  - AI/AI_Agent/Education_Assistant/README.md

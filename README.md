@@ -1,13 +1,37 @@
-# Lecture
+# Lecture Series
 
-This repository contains a collection of lectures and practical examples for Python development, AI implementation, and cybersecurity.
+This repository hosts a collection of structured lectures and practical implementations for Python development and AI systems.
 
-## 🚀 [Python Class](Python-Class/README.md)
-A comprehensive guide to learning Python through practical applications, from data collection to web development and cybersecurity.
+---
 
-## 🤖 [AI and Machine Learning](AI/README.md)
-Exploration of modern AI techniques and their practical applications.
-*   **[AI Agent](AI/AI_Agent/README.md)**: Building and deploying intelligent agents.
-*   **[AI-Augmented Development](AI/AI_Augmented_Development/README.md)**: Enhancing development workflows with AI tools.
-*   **[AI Security](AI/AI_Security/README.md)**: Securing AI systems and using AI for security.
-*   **[Vertical RAG](AI/Vertical_RAG/README.md)**: Implementing Retrieval-Augmented Generation for specific domains.
+## 🤖 AI & Machine Learning
+*Building the next generation of intelligent systems using LLMs and Agentic workflows.*
+
+- **[AI Agent](AI/AI_Agent/README.md)**: Autonomous systems that can reason and act.
+    - **[Education Assistant](AI/AI_Agent/Education_Assistant/README.md)**: Our flagship project featuring Hybrid AI (Gemini + Local Ollama).
+- **[AI-Augmented Development](AI/AI_Augmented_Development/README.md)**: Using AI to accelerate the software development lifecycle.
+- **[AI Security](AI/AI_Security/README.md)**: Protecting AI models and using AI for incident response.
+- **[Vertical RAG](AI/Vertical_RAG/README.md)**: Specialized Retrieval-Augmented Generation for industry-specific data.
+
+[👉 Explore AI Curriculum](AI/README.md)
+
+## 🛠 Project Standards
+- **Local AI First**: We prioritize privacy and cost-efficiency by using **Ollama** and **Llama 3**.
+- **Modern Themes**: Documentation is hosted via GitHub Pages using the **Slate** theme.
+- **Modular Design**: Each lecture includes source code, tutorials, and unit tests.
+
+---
+
+## 🐍 Python Class
+*A comprehensive journey from the basics to advanced office automation and cybersecurity.*
+
+- **[00. Pre-courses](Python-Class/00_Pre-courses/README.md)**: Environment setup, PyCharm, and troubleshooting.
+- **[01. Data Collector](Python-Class/01_Data_collector/README.md)**: Learning to gather data via APIs (yfinance, Binance) and Scraping (Premier League, Weather).
+- **[02. Web Development](Python-Class/02_Web_development/README.md)**: Building backends with **FastAPI** and frontends with Node.js.
+- **[04. Office Automation](Python-Class/04_Office_Automation/)**: Automating Jira, Conference controls, and SMTP email services.
+- **[08. Cybersecurity](Python-Class/08_Cybersecurity/README.md)**: Implementing authentication, encryption, and network scanners.
+
+[👉 Explore Python Curriculum](Python-Class/README.md)
+
+---
+
