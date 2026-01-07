@@ -8,8 +8,6 @@ permalink: /cybersecurity/
 
 # Cybersecurity Lecture Series
 
-**[← Back to Main](../README.md)**
-
 ## Overview
 
 This comprehensive cybersecurity curriculum offers a dual-track approach to modern digital defense, addressing security challenges across both enterprise and personal domains. The **Enterprise Security Strategy** track empowers professionals to implement Zero Trust Architectures, secure cloud-native environments, and defend against AI-driven threats. Simultaneously, the **Personal Digital Defense** track guides individuals through the complexities of next-generation identity management, social engineering defense, and privacy protection in an interconnected world.

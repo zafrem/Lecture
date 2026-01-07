@@ -9,10 +9,6 @@ permalink: /cybersecurity/personal/
 
 # Class 2: Personal Digital Defense & Privacy
 
-**Navigation:** [← Cybersecurity Home](../README.md) | [Main →](../../README.md) | [← Enterprise Security](../Enterprise_Security/README.md)
-
----
-
 ## Course Focus
 Identity Protection, Anti-Fraud, Smart Home Security
 

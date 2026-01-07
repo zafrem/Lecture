@@ -9,10 +9,6 @@ permalink: /cybersecurity/enterprise/
 
 # Class 1: Enterprise Cybersecurity Strategy
 
-**Navigation:** [← Cybersecurity Home](../README.md) | [Main →](../../README.md) | [Personal Defense →](../Personal_Digital_Defense/README.md)
-
----
-
 ## Course Focus
 Zero Trust Architecture, Cloud Security, AI Governance
 
