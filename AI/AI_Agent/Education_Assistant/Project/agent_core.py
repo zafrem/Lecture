@@ -131,7 +131,7 @@ class EducationAgent:
         }
         
         req = urllib.request.Request(url, data=json.dumps(data).encode('utf-8'), headers={'Content-Type': 'application/json'})
-        with urllib.request.urlopen(req) as response:
+        with urllib.request.urlopen(req, timeout=2) as response:
             result = json.loads(response.read().decode('utf-8'))
             text = result.get('response', '').strip()
             # Simple cleanup just in case
@@ -355,7 +355,7 @@ class EducationAgent:
                     "stream": False
                 }
                 req = urllib.request.Request(url, data=json.dumps(data).encode('utf-8'), headers={'Content-Type': 'application/json'})
-                with urllib.request.urlopen(req) as response:
+                with urllib.request.urlopen(req, timeout=2) as response:
                     result = json.loads(response.read().decode('utf-8'))
                     response_text = result.get('response', '')
             except: pass
@@ -406,7 +406,7 @@ class EducationAgent:
                 "stream": False
             }
             req = urllib.request.Request(url, data=json.dumps(data).encode('utf-8'), headers={'Content-Type': 'application/json'})
-            with urllib.request.urlopen(req) as response:
+            with urllib.request.urlopen(req, timeout=2) as response:
                 result = json.loads(response.read().decode('utf-8'))
                 return result.get('response', '').strip()
         except: pass

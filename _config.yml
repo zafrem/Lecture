@@ -16,7 +16,7 @@ relative_links:
 # Navigation (Optional, depends on theme support, but good for metadata)
 header_pages:
   - README.md
-  - Python-Class/README.md
+  - Python/README.md
   - AI/README.md
   - AI/AI_Agent/README.md
   - AI/AI_Agent/Education_Assistant/README.md

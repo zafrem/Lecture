@@ -30,3 +30,10 @@ This repository hosts a collection of structured lectures and practical implemen
 
 ---
 
+## Cybersecurity
+*Modern security strategies for enterprise and personal digital defense.*
+
+- **[Enterprise Cybersecurity Strategy](Cybersecurity/Enterprise_Security/README.md)**: Zero Trust, Cloud Security, AI Governance
+- **[Personal Digital Defense & Privacy](Cybersecurity/Personal_Digital_Defense/README.md)**: Identity Protection, Anti-Fraud, Smart Home Security
+
+[Explore Cybersecurity Curriculum](Cybersecurity/README.md)
