@@ -1,3 +1,5 @@
+**[🏠 Home](../../../../README.md)** > **[AI](../../../README.md)** > **[AI Agent](../../README.md)** > **[Education Assistant](../README.md)** > **[Class](README.md)** > **Step 1**
+
 # Step 1: Concept & Design
 
 ## 1. The Problem: The "One-to-Many" Dilemma

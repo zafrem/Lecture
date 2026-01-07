@@ -1,3 +1,5 @@
+**[🏠 Home](../../../../README.md)** > **[AI](../../../README.md)** > **[AI Agent](../../README.md)** > **[Education Assistant](../README.md)** > **[Class](README.md)** > **Step 3b**
+
 # Step 3b: Deep Dive into Local LLMs & Ollama
 
 In the previous step, we talked about giving our Agent a "Brain". Usually, developers use cloud services like OpenAI (ChatGPT) or Google Gemini. However, there is a powerful alternative: **Running the AI locally on your own computer.**

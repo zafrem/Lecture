@@ -1,3 +1,5 @@
+**[🏠 Home](../../../../README.md)** > **[AI](../../../README.md)** > **[AI Agent](../../README.md)** > **[Education Assistant](../README.md)** > **[Class](README.md)** > **Step 3**
+
 # Step 3: Building the Brain (Agent Logic)
 
 Now that we have memory, we need logic. The "Brain" needs to do three main things:

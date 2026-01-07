@@ -6,6 +6,8 @@ nav_order: 3
 permalink: /python/web-development/
 ---
 
+**[🏠 Home](../../README.md)** > **[Python](../README.md)** > **Web Development**
+
 # Web Development
 
 This section covers the journey from basic web concepts to building full-stack applications using modern frameworks.

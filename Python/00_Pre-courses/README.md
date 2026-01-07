@@ -6,6 +6,8 @@ nav_order: 1
 permalink: /python/pre-courses/
 ---
 
+**[🏠 Home](../../README.md)** > **[Python](../README.md)** > **Pre-courses**
+
 # Pre-courses
 This is a program that you need to install by default in order to code. 
 However, if you have your own preferred environment, you can customize it.

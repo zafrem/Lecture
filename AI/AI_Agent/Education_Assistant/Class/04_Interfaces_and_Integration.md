@@ -1,3 +1,5 @@
+**[🏠 Home](../../../../README.md)** > **[AI](../../../README.md)** > **[AI Agent](../../README.md)** > **[Education Assistant](../README.md)** > **[Class](README.md)** > **Step 4**
+
 # Step 4: Connecting to the World (Interfaces)
 
 A brain in a jar is useless. Our agent needs to talk to people where they are: **Discord** and **Email**.

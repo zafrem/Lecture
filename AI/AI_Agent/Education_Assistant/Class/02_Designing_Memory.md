@@ -1,3 +1,5 @@
+**[🏠 Home](../../../../README.md)** > **[AI](../../../README.md)** > **[AI Agent](../../README.md)** > **[Education Assistant](../README.md)** > **[Class](README.md)** > **Step 2**
+
 # Step 2: Designing the Memory (Database)
 
 An AI Agent is only as good as what it remembers. If it forgets who the students are, it's useless. We need to design a structured way to store information.
@@ -13,6 +15,7 @@ Grab a pen and paper. What entities exist in a classroom?
 We will use **SQLite** because it requires no server setup.
 
 ### Table: Students
+
 | Column | Type | Purpose |
 | :--- | :--- | :--- |
 | `id` | INTEGER | Unique ID |
@@ -21,12 +24,14 @@ We will use **SQLite** because it requires no server setup.
 | `tags` | TEXT | Labels like "needs_help", "visual_learner" |
 
 ### Table: Schedules
+
 | Column | Type | Purpose |
 | :--- | :--- | :--- |
 | `event_time` | DATETIME | When is it? |
 | `description`| TEXT | "Math Class", "Review Session" |
 
 ### Table: Feedback (The "Inbox")
+
 | Column | Type | Purpose |
 | :--- | :--- | :--- |
 | `student_id` | INTEGER | Who sent it? |

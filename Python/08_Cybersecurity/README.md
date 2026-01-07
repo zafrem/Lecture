@@ -6,6 +6,8 @@ nav_order: 5
 permalink: /python/cybersecurity/
 ---
 
+**[🏠 Home](../../README.md)** > **[Python](../README.md)** > **Cybersecurity**
+
 # Cybersecurity and Vulnerability Analysis
 
 This section covers various aspects of cybersecurity, ranging from fundamental security concepts and implementations to practical tools for security analysis and monitoring.

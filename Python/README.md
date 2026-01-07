@@ -6,6 +6,8 @@ has_children: true
 permalink: /python/
 ---
 
+**[🏠 Home](../README.md)** > **Python**
+
 # Lecture Python Class
 
 There are several ways to build basic competencies.

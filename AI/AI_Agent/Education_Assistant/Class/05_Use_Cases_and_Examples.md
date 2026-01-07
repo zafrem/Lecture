@@ -1,3 +1,5 @@
+**[🏠 Home](../../../../README.md)** > **[AI](../../../README.md)** > **[AI Agent](../../README.md)** > **[Education Assistant](../README.md)** > **[Class](README.md)** > **Step 5**
+
 # Step 5: Use Cases & Real-World Examples
 
 Understanding the code is one thing; understanding *how to apply it* is another. This document outlines specific scenarios where the Education Assistant Agent solves real classroom problems.

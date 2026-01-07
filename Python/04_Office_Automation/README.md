@@ -6,6 +6,8 @@ nav_order: 4
 permalink: /python/office-automation/
 ---
 
+**[🏠 Home](../../README.md)** > **[Python](../README.md)** > **Office Automation**
+
 # Office Automation
 
 Scripts designed to automate repetitive administrative and operational tasks, improving efficiency and reducing manual errors in daily workflows.

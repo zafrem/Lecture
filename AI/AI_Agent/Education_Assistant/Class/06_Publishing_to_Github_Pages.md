@@ -1,3 +1,5 @@
+**[🏠 Home](../../../../README.md)** > **[AI](../../../README.md)** > **[AI Agent](../../README.md)** > **[Education Assistant](../README.md)** > **[Class](README.md)** > **Step 6**
+
 # Step 6: Publishing Your Work (GitHub Pages & Jekyll)
 
 Now that you've built your AI Agent and written your documentation, you probably want to share it with the world. Instead of sending people a zip file, you can turn your GitHub repository into a **live website** for free.

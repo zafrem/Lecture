@@ -6,6 +6,8 @@ nav_order: 2
 permalink: /python/data-collector/
 ---
 
+**[🏠 Home](../../README.md)** > **[Python](../README.md)** > **Data Collector**
+
 # Data Collector
 
 Gathering data is the foundation of many Python applications. This section explores various methods of data acquisition, from official APIs to web scraping.

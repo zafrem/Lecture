@@ -1,3 +1,5 @@
+**[🏠 Home](../../../../README.md)** > **[AI](../../../README.md)** > **[AI Agent](../../README.md)** > **[Education Assistant](../README.md)** > **[Class](README.md)** > **Step 3c**
+
 # Step 3c: Understanding Cloud AI APIs (Gemini & OpenAI)
 
 In Step 3b, we learned about running AI locally. However, our agent is a **Hybrid Agent**, which means it prefers to use powerful "Cloud AI" first if available. 
