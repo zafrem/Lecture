@@ -1,3 +1,11 @@
+---
+layout: default
+title: AI & Machine Learning
+nav_order: 3
+has_children: true
+permalink: /ai/
+---
+
 **[🏠 Home](../README.md)** > **AI**
 
 # Artificial Intelligence & Machine Learning

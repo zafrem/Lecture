@@ -1,3 +1,12 @@
+---
+layout: default
+title: Project (Source Code)
+parent: Education Assistant
+grand_parent: AI Agent
+nav_order: 2
+permalink: /ai/agent/education-assistant/project/
+---
+
 # Education Assistant Agent (Source Code)
 
 This directory contains the complete source code for the Education Assistant. This documentation explains exactly how the code works, file by file.

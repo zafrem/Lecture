@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Structured lectures for Python development, AI systems, and Cybersecurity"
+permalink: /
+---
+
 # Lecture Series
 
 This repository hosts a collection of structured lectures and practical implementations for Python development and AI systems.

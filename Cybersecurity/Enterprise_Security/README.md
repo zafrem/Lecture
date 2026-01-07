@@ -1,3 +1,12 @@
+---
+layout: default
+title: Enterprise Security Strategy
+parent: Cybersecurity
+nav_order: 1
+has_children: false
+permalink: /cybersecurity/enterprise/
+---
+
 # Class 1: Enterprise Cybersecurity Strategy
 
 **Navigation:** [← Cybersecurity Home](../README.md) | [Main →](../../README.md) | [Personal Defense →](../Personal_Digital_Defense/README.md)

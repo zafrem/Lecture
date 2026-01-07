@@ -7,16 +7,42 @@ plugins:
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
 
 # Settings
 relative_links:
   enabled: true
   collections: true
 
+# Optional front matter settings
+optional_front_matter:
+  remove_originals: false
+
+# Titles from headings
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
+
+# README index settings
+readme_index:
+  enabled: true
+  remove_originals: false
+
 # Navigation (Optional, depends on theme support, but good for metadata)
 header_pages:
   - README.md
   - Python/README.md
+  - Python/00_Pre-courses/README.md
+  - Python/01_Data_collector/README.md
+  - Python/02_Web_development/README.md
+  - Python/04_Office_Automation/README.md
+  - Python/08_Cybersecurity/README.md
   - AI/README.md
   - AI/AI_Agent/README.md
   - AI/AI_Agent/Education_Assistant/README.md
+  - Cybersecurity/README.md
+  - Cybersecurity/Enterprise_Security/README.md
+  - Cybersecurity/Personal_Digital_Defense/README.md

@@ -1,3 +1,11 @@
+---
+layout: default
+title: 02. Web Development
+parent: Python Class
+nav_order: 3
+permalink: /python/web-development/
+---
+
 # Web Development
 
 This section covers the journey from basic web concepts to building full-stack applications using modern frameworks.

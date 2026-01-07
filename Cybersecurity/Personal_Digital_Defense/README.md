@@ -1,3 +1,12 @@
+---
+layout: default
+title: Personal Digital Defense
+parent: Cybersecurity
+nav_order: 2
+has_children: false
+permalink: /cybersecurity/personal/
+---
+
 # Class 2: Personal Digital Defense & Privacy
 
 **Navigation:** [← Cybersecurity Home](../README.md) | [Main →](../../README.md) | [← Enterprise Security](../Enterprise_Security/README.md)

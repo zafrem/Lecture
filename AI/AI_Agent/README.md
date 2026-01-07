@@ -1,3 +1,12 @@
+---
+layout: default
+title: AI Agent
+parent: AI & Machine Learning
+nav_order: 1
+has_children: true
+permalink: /ai/agent/
+---
+
 **[🏠 Home](../../README.md)** > **[AI](../README.md)** > **AI Agent**
 
 # AI Agent

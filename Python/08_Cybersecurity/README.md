@@ -1,3 +1,11 @@
+---
+layout: default
+title: 08. Cybersecurity
+parent: Python Class
+nav_order: 5
+permalink: /python/cybersecurity/
+---
+
 # Cybersecurity and Vulnerability Analysis
 
 This section covers various aspects of cybersecurity, ranging from fundamental security concepts and implementations to practical tools for security analysis and monitoring.

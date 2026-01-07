@@ -1,3 +1,11 @@
+---
+layout: default
+title: Cybersecurity
+nav_order: 4
+has_children: true
+permalink: /cybersecurity/
+---
+
 # Cybersecurity Lecture Series
 
 **[← Back to Main](../README.md)**

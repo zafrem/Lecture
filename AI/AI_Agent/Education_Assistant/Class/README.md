@@ -1,3 +1,12 @@
+---
+layout: default
+title: Class (Tutorials)
+parent: Education Assistant
+grand_parent: AI Agent
+nav_order: 1
+permalink: /ai/agent/education-assistant/class/
+---
+
 # Building an Education Assistant Agent
 
 Welcome to the class! In this series, we will build an AI-powered assistant to help teachers manage their classrooms and ensure educational equity.

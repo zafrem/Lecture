@@ -1,3 +1,13 @@
+---
+layout: default
+title: Education Assistant
+parent: AI Agent
+grand_parent: AI & Machine Learning
+nav_order: 1
+has_children: true
+permalink: /ai/agent/education-assistant/
+---
+
 **[🏠 Home](../../../README.md)** > **[AI](../../README.md)** > **[AI Agent](../README.md)** > **Education Assistant**
 
 # Education Assistant Agent

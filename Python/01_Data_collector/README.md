@@ -1,3 +1,11 @@
+---
+layout: default
+title: 01. Data Collector
+parent: Python Class
+nav_order: 2
+permalink: /python/data-collector/
+---
+
 # Data Collector
 
 Gathering data is the foundation of many Python applications. This section explores various methods of data acquisition, from official APIs to web scraping.

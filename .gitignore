@@ -174,3 +174,11 @@ cython_debug/
 /English_Study_for_code/
 /Python/02_Web_development/3_Web_Server_FastAPI/playground/
 .DS_Store
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
