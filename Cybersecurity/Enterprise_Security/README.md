@@ -3,7 +3,7 @@ layout: default
 title: Enterprise Security Strategy
 parent: Cybersecurity
 nav_order: 1
-has_children: false
+has_children: true
 permalink: /cybersecurity/enterprise/
 ---
 

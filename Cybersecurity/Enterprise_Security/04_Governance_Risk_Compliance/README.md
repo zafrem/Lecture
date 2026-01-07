@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Module 4: Governance, Risk & Compliance"
+parent: Enterprise Security Strategy
+grand_parent: Cybersecurity
+nav_order: 4
+permalink: /cybersecurity/enterprise/grc/
+---
+
 # Module 4: Governance, Risk, and Compliance (GRC)
 
 ## Overview

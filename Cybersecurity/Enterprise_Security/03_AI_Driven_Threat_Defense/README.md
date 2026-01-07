@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Module 3: AI-Driven Threat Defense"
+parent: Enterprise Security Strategy
+grand_parent: Cybersecurity
+nav_order: 3
+permalink: /cybersecurity/enterprise/ai-defense/
+---
+
 # Module 3: AI-Driven Threat Defense & Response
 
 ## Overview

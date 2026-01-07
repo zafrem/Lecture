@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Module 2: Cloud-Native Security"
+parent: Enterprise Security Strategy
+grand_parent: Cybersecurity
+nav_order: 2
+permalink: /cybersecurity/enterprise/cloud-security/
+---
+
 # Module 2: Cloud-Native Security & DevSecOps
 
 ## Overview

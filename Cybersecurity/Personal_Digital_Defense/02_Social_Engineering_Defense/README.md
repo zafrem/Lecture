@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Module 2: Social Engineering Defense"
+parent: Personal Digital Defense
+grand_parent: Cybersecurity
+nav_order: 2
+permalink: /cybersecurity/personal/social-engineering/
+---
+
 # Module 2: Countering Social Engineering & AI Scams
 
 ## Overview

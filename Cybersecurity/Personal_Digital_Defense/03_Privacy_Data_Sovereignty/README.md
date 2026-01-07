@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Module 3: Privacy & Data Sovereignty"
+parent: Personal Digital Defense
+grand_parent: Cybersecurity
+nav_order: 3
+permalink: /cybersecurity/personal/privacy/
+---
+
 # Module 3: Privacy & Data Sovereignty
 
 ## Overview

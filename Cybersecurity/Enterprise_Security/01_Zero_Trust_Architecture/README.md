@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Module 1: Zero Trust Architecture"
+parent: Enterprise Security Strategy
+grand_parent: Cybersecurity
+nav_order: 1
+permalink: /cybersecurity/enterprise/zero-trust/
+---
+
 # Module 1: Foundations of Zero Trust Architecture (ZTA)
 
 ## Overview

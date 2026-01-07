@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Module 1: Identity Management"
+parent: Personal Digital Defense
+grand_parent: Cybersecurity
+nav_order: 1
+permalink: /cybersecurity/personal/identity/
+---
+
 # Module 1: Next-Gen Identity Management
 
 ## Overview

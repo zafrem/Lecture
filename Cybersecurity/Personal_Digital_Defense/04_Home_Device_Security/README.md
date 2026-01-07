@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Module 4: Home & Device Security"
+parent: Personal Digital Defense
+grand_parent: Cybersecurity
+nav_order: 4
+permalink: /cybersecurity/personal/home-security/
+---
+
 # Module 4: Home & Device Security
 
 ## Overview
