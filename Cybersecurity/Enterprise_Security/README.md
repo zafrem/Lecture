@@ -7,6 +7,8 @@ has_children: true
 permalink: /cybersecurity/enterprise/
 ---
 
+**[🏠 Home](../../README.md)** > **[Cybersecurity](../README.md)** > **Enterprise Security**
+
 # Class 1: Enterprise Cybersecurity Strategy
 
 ## Course Focus
@@ -240,21 +242,6 @@ Navigating regulatory requirements, managing risk, and ensuring organizational r
 - MITRE ATT&CK Framework
 - Zero Trust Architecture (NIST SP 800-207)
 - CIS Controls
-
----
-
-## Quick Navigation
-
-**Modules:**
-- [Module 1: Zero Trust Architecture](01_Zero_Trust_Architecture/README.md)
-- [Module 2: Cloud-Native Security](02_Cloud_Native_Security/README.md)
-- [Module 3: AI-Driven Threat Defense](03_AI_Driven_Threat_Defense/README.md)
-- [Module 4: Governance, Risk, Compliance](04_Governance_Risk_Compliance/README.md)
-
-**Other Classes:**
-- [Personal Digital Defense & Privacy](../Personal_Digital_Defense/README.md)
-
-**[← Back to Cybersecurity Home](../README.md)** | **[← Back to Main](../../README.md)**
 
 ---
 

@@ -6,6 +6,8 @@ has_children: true
 permalink: /cybersecurity/
 ---
 
+**[🏠 Home](../README.md)** > **Cybersecurity**
+
 # Cybersecurity Lecture Series
 
 ## Overview

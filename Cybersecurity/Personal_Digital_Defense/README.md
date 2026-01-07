@@ -7,6 +7,8 @@ has_children: true
 permalink: /cybersecurity/personal/
 ---
 
+**[🏠 Home](../../README.md)** > **[Cybersecurity](../README.md)** > **Personal Defense**
+
 # Class 2: Personal Digital Defense & Privacy
 
 ## Course Focus
@@ -245,21 +247,6 @@ Securing your home network, IoT devices, and personal endpoints.
 - Have I Been Pwned (breach checking)
 - Privacy Guides
 - Electronic Frontier Foundation (EFF)
-
----
-
-## Quick Navigation
-
-**Modules:**
-- [Module 1: Identity Management](01_Identity_Management/README.md)
-- [Module 2: Social Engineering Defense](02_Social_Engineering_Defense/README.md)
-- [Module 3: Privacy & Data Sovereignty](03_Privacy_Data_Sovereignty/README.md)
-- [Module 4: Home & Device Security](04_Home_Device_Security/README.md)
-
-**Other Classes:**
-- [Enterprise Cybersecurity Strategy](../Enterprise_Security/README.md)
-
-**[← Back to Cybersecurity Home](../README.md)** | **[← Back to Main](../../README.md)**
 
 ---
 
