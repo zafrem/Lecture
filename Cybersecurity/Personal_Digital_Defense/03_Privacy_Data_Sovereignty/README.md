@@ -7,6 +7,8 @@ nav_order: 3
 permalink: /cybersecurity/personal/privacy/
 ---
 
+**[🏠 Home](../../../README.md)** > **[Cybersecurity](../../README.md)** > **[Personal Defense](../README.md)** > **Module 3**
+
 # Module 3: Privacy & Data Sovereignty
 
 ## Overview

@@ -7,6 +7,8 @@ nav_order: 4
 permalink: /cybersecurity/personal/home-security/
 ---
 
+**[🏠 Home](../../../README.md)** > **[Cybersecurity](../../README.md)** > **[Personal Defense](../README.md)** > **Module 4**
+
 # Module 4: Home & Device Security
 
 ## Overview

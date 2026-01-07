@@ -7,6 +7,8 @@ nav_order: 2
 permalink: /cybersecurity/personal/social-engineering/
 ---
 
+**[🏠 Home](../../../README.md)** > **[Cybersecurity](../../README.md)** > **[Personal Defense](../README.md)** > **Module 2**
+
 # Module 2: Countering Social Engineering & AI Scams
 
 ## Overview

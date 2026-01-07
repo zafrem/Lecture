@@ -7,6 +7,8 @@ nav_order: 3
 permalink: /cybersecurity/enterprise/ai-defense/
 ---
 
+**[🏠 Home](../../../README.md)** > **[Cybersecurity](../../README.md)** > **[Enterprise Security](../README.md)** > **Module 3**
+
 # Module 3: AI-Driven Threat Defense & Response
 
 ## Overview

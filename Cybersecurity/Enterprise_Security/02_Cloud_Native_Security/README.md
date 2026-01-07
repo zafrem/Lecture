@@ -7,6 +7,8 @@ nav_order: 2
 permalink: /cybersecurity/enterprise/cloud-security/
 ---
 
+**[🏠 Home](../../../README.md)** > **[Cybersecurity](../../README.md)** > **[Enterprise Security](../README.md)** > **Module 2**
+
 # Module 2: Cloud-Native Security & DevSecOps
 
 ## Overview

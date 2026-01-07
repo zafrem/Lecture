@@ -7,6 +7,8 @@ nav_order: 1
 permalink: /cybersecurity/enterprise/zero-trust/
 ---
 
+**[🏠 Home](../../../README.md)** > **[Cybersecurity](../../README.md)** > **[Enterprise Security](../README.md)** > **Module 1**
+
 # Module 1: Foundations of Zero Trust Architecture (ZTA)
 
 ## Overview

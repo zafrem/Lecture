@@ -7,6 +7,8 @@ nav_order: 4
 permalink: /cybersecurity/enterprise/grc/
 ---
 
+**[🏠 Home](../../../README.md)** > **[Cybersecurity](../../README.md)** > **[Enterprise Security](../README.md)** > **Module 4**
+
 # Module 4: Governance, Risk, and Compliance (GRC)
 
 ## Overview
