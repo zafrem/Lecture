@@ -20,13 +20,13 @@ This repository hosts a collection of structured lectures and practical implemen
 ## Python Class
 *A comprehensive journey from the basics to advanced office automation and cybersecurity.*
 
-- **[00. Pre-courses](Python-Class/00_Pre-courses/README.md)**: Environment setup, PyCharm, and troubleshooting.
-- **[01. Data Collector](Python-Class/01_Data_collector/README.md)**: Learning to gather data via APIs (yfinance, Binance) and Scraping (Premier League, Weather).
-- **[02. Web Development](Python-Class/02_Web_development/README.md)**: Building backends with **FastAPI** and frontends with Node.js.
-- **[04. Office Automation](Python-Class/04_Office_Automation/)**: Automating Jira, Conference controls, and SMTP email services.
-- **[08. Cybersecurity](Python-Class/08_Cybersecurity/README.md)**: Implementing authentication, encryption, and network scanners.
+- **[00. Pre-courses](Python/00_Pre-courses/README.md)**: Environment setup, PyCharm, and troubleshooting.
+- **[01. Data Collector](Python/01_Data_collector/README.md)**: Learning to gather data via APIs (yfinance, Binance) and Scraping (Premier League, Weather).
+- **[02. Web Development](Python/02_Web_development/README.md)**: Building backends with **FastAPI** and frontends with Node.js.
+- **[04. Office Automation](Python/04_Office_Automation/)**: Automating Jira, Conference controls, and SMTP email services.
+- **[08. Cybersecurity](Python/08_Cybersecurity/README.md)**: Implementing authentication, encryption, and network scanners.
 
-[Explore Python Curriculum](Python-Class/README.md)
+[Explore Python Curriculum](Python/README.md)
 
 ---
 
