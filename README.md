@@ -8,7 +8,11 @@ permalink: /
 
 # Lecture Series
 
-This repository hosts a collection of structured lectures and practical implementations for Python development and AI systems.
+## The Purpose of This Development
+
+"Since becoming a Staff Engineer, I've been working a lot more with planners and engineers who don't code. I realized they're actually really keen on using AI for automation. I've been trying to help them learn bit by bit, but honestly, teaching the basics is harder than it looks. That's why I decided to start documenting everything properly."
+
+Home Page : [Web Site](https://zafrem.github.io/Lecture/)
 
 ---
 
