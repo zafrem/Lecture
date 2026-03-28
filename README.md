@@ -24,8 +24,17 @@ Home Page : [Web Site](https://zafrem.github.io/Lecture/)
     - **[Cyber-Sentinel](AI/AI_Agent/Cyber_Sentinel/README.md)**: Automated SOC Analyst for real-time threat detection and response.
     - **[Market-Pulse](AI/AI_Agent/Market_Pulse/README.md)**: Financial Analyst Agent utilizing Vertical RAG for investment insights.
 - **[AI-Augmented Development](AI/AI_Augmented_Development/README.md)**: Using AI to accelerate the software development lifecycle.
+    - **[Unit Test Generation](AI/AI_Augmented_Development/README.md#1-ai-driven-unit-test-generation)**: Automated testing suites.
+    - **[Code Review & Doc](AI/AI_Augmented_Development/README.md#2-automated-code-documentation--review)**: Quality checks and Javadoc automation.
+    - **[Legacy Refactoring](AI/AI_Augmented_Development/README.md#3-legacy-code-refactoring-assistant)**: Modernizing old codebases.
 - **[AI Security](AI/AI_Security/README.md)**: Protecting AI models and using AI for incident response.
+    - **[Red Teaming](AI/AI_Security/README.md#1-adversarial-attack-simulation-red-teaming)**: Adversarial attack simulations.
+    - **[PII Masking](AI/AI_Security/README.md#2-pii-masking--data-privacy-guardrails)**: Data privacy and masking guardrails.
+    - **[Model Defense](AI/AI_Security/README.md#3-model-inversion--extraction-defense)**: Protecting intellectual property.
 - **[Vertical RAG](AI/Vertical_RAG/README.md)**: Specialized Retrieval-Augmented Generation for industry-specific data.
+    - **[Legal RAG](AI/Vertical_RAG/README.md#1-legal-compliance-rag)**: Case law and regulatory research.
+    - **[Medical RAG](AI/Vertical_RAG/README.md#2-medical-diagnostic-support-rag)**: Evidence-based clinical insights.
+    - **[Financial RAG](AI/Vertical_RAG/README.md#3-financial-market-analysis-rag)**: Market sentiment and trend analysis.
 
 [Explore AI Curriculum](AI/README.md)
 
