@@ -21,6 +21,8 @@ Home Page : [Web Site](https://zafrem.github.io/Lecture/)
 
 - **[AI Agent](AI/AI_Agent/README.md)**: Autonomous systems that can reason and act.
     - **[Education Assistant](AI/AI_Agent/Education_Assistant/README.md)**: Our flagship project featuring Hybrid AI (Gemini + Local Ollama).
+    - **[Cyber-Sentinel](AI/AI_Agent/Cyber_Sentinel/README.md)**: Automated SOC Analyst for real-time threat detection and response.
+    - **[Market-Pulse](AI/AI_Agent/Market_Pulse/README.md)**: Financial Analyst Agent utilizing Vertical RAG for investment insights.
 - **[AI-Augmented Development](AI/AI_Augmented_Development/README.md)**: Using AI to accelerate the software development lifecycle.
 - **[AI Security](AI/AI_Security/README.md)**: Protecting AI models and using AI for incident response.
 - **[Vertical RAG](AI/Vertical_RAG/README.md)**: Specialized Retrieval-Augmented Generation for industry-specific data.

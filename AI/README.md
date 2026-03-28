@@ -16,7 +16,10 @@ This section offers a deep dive into modern artificial intelligence, providing a
 
 ### [AI Agent](AI_Agent/README.md)
 Focuses on building autonomous systems that perceive, reason, and act.
-*   **Highlight**: The **[Education Assistant](AI_Agent/Education_Assistant/README.md)** project is a specialized agent designed to support teachers. It helps manage student interactions, tracks engagement via Discord, and handles administrative tasks.
+*   **Highlight**: The **[Education Assistant](AI_Agent/Education_Assistant/README.md)** project is a specialized agent designed to support teachers.
+*   **Projects**:
+    *   **[Cyber-Sentinel](AI_Agent/Cyber_Sentinel/README.md)**: Automated SOC Analyst for real-time threat detection and response.
+    *   **[Market-Pulse](AI_Agent/Market_Pulse/README.md)**: Financial Analyst Agent utilizing Vertical RAG for investment insights.
 *   **Tutorials**: Includes a comprehensive step-by-step guide covering architectural concepts, database design, and implementation using both local LLMs (Ollama) and cloud APIs (Gemini/OpenAI).
 
 ### [AI-Augmented Development](AI_Augmented_Development/README.md)

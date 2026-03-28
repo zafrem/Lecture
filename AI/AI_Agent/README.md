@@ -21,6 +21,18 @@ A specialized AI Agent designed to support teachers by managing student interact
 - **Goal**: Promote educational equity through AI-driven classroom management.
 - **Key Features**: Discord integration, database-backed memory, automated reporting, and student engagement tracking.
 
+### [🛡️ Cyber-Sentinel](./Cyber_Sentinel/README.md)
+An automated SOC (Security Operations Center) Analyst Agent that integrates with network security tools to detect, triage, and respond to threats in real-time.
+
+- **Goal**: Automate initial incident response and security monitoring for small networks.
+- **Key Features**: Log analysis integration, automated IP blocking (with approval), and vulnerability assessment summaries.
+
+### [📈 Market-Pulse](./Market_Pulse/README.md)
+A high-performance Financial Investment Analyst Agent that utilizes Vertical RAG to provide real-time market insights and portfolio analysis.
+
+- **Goal**: Bridge the gap between raw financial data and actionable investment intelligence.
+- **Key Features**: Sentiment analysis across news feeds, technical indicator integration, and automated weekly performance reporting.
+
 ## Core Concepts
 
 - **Perception**: Receiving input from users or environment (e.g., Discord messages, emails).
