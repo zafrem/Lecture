@@ -92,6 +92,34 @@ This document details the technical workflows for the primary use cases of the E
     3.  Return text block to Discord for teacher review.
 - **Outcome:** A ready-to-send draft for parents/admin.
 
+### F. Automated Grading Assistant
+**Goal:** Provide initial feedback and rubric-based scoring for student submissions.
+- **Input:** Student uploads a document or provides a link.
+- **System Process:**
+    1.  Agent extracts text content from the submission.
+    2.  Compares content against a pre-defined `rubric` stored in the database.
+    3.  **LLM Analysis**: Generates strengths, weaknesses, and a suggested score.
+    4.  Teacher receives a notification to "Approve" or "Adjust" the automated grade.
+- **Outcome:** Significantly reduced grading time for repetitive assignments.
+
+### G. Personalized Learning Path Generator
+**Goal:** Suggest specific resources based on individual performance gaps.
+- **Input:** System identifies a student with multiple `needs_help` tags or low scores in a specific topic.
+- **System Process:**
+    1.  `agent.analyze_gaps(student_id)` identifies weak topics (e.g., "Algebraic Equations").
+    2.  Queries a `resources` library for materials tagged with that topic.
+    3.  Sends a curated list of videos, exercises, and reading materials to the student.
+- **Outcome:** Targeted intervention without manual teacher diagnosis.
+
+### H. Parent-Teacher Communication Summarizer
+**Goal:** Compile individual student highlights into a digest for parent updates.
+- **Input:** `!summarize [Student Name]`
+- **System Process:**
+    1.  Aggregates attendance, grade trends, and positive behavior tags from the last 7 days.
+    2.  **LLM Summarization**: Transforms raw data into a friendly, professional paragraph.
+    3.  Outputs a template that the teacher can copy-paste into an email or messaging app.
+- **Outcome:** Consistent, high-quality communication with families with minimal effort.
+
 ## 3. Integration Examples
 
 ### Discord Command Map
